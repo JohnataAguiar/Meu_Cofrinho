@@ -29,7 +29,7 @@ public class MinhaPoupanca {
                 
             // Menu
             System.out.println("---------------MENU---------------");
-            System.out.println(" \n [1] Primeiro deposito \n [2] Depositar \n [3] Sacar \n [4] Saldo \n [5] Sair \n"); 
+            System.out.println(" \n [1] Definir valor \n [2] Depositar \n [3] Sacar \n [4] Saldo \n [5] Sair \n"); 
             System.out.print("--> ");
             userInput= scanner.nextInt();
             System.out.println("__________________________________");
@@ -45,7 +45,7 @@ public class MinhaPoupanca {
             
             if(userInput == 1){
                 // 
-                System.out.println("\n--------Primeiro deposito---------");
+                System.out.println("\n--------META DA POUPANÇA--------");
                 System.out.print("\nValor a ser poupado --> ");
                 savingGoal = scanner.nextDouble();
                 System.out.println("\nValor Definido!");
@@ -82,7 +82,7 @@ public class MinhaPoupanca {
                 }else
                 // 
                 // 
-                System.out.println("Valor disponivel");
+                System.out.println("Valor disponivel!");
                 addedValue = addedValue - valueTaken;
                 System.out.println("Seu novo saldo é --> " + addedValue + " " + "R$");
                 // 
